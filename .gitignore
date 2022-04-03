@@ -1,32 +1,29 @@
-# Prerequisites
-*.d
+# Vim
+*~
+*.sw[p_]
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+**/vendor/bundle
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Node.js and NPM
+node_modules
+npm-debug.log*
+package-lock.json
+codekit-config.json
 
-# Fortran module files
-*.mod
-*.smod
+# macOS
+.DS_Store
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
